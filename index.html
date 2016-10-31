@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>色块辨析</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<!-- 游戏界面 -->
+	<div id="gameOn">
+		<!-- topBar -->
+		<div class="message">
+			<div class="score" id="score">
+				Score:0
+			</div>
+			<div class="timer">
+				<span id="timer">45</span>
+			</div>
+			<div class="stop">
+				<button>
+					<span></span>
+					<span></span>
+				</button>
+			</div>
+		</div>
+		<!-- gameBar -->
+		<div class="colorGame">
+			<canvas id="canvas" width="500" height="500"></canvas>
+		</div>
+	</div>
+
+
+	<!-- 开始界面 -->
+	<div class="game" id="beginView">
+		<h1>看你有多色</h1>
+		<p>魔女的预测</p>
+		<i></i>
+		<span id="start">Start</span>
+	</div>
+	<!-- 暂停界面 -->
+	<div class="wait">
+		<span></span>
+	</div>
+
+
+	<!-- 统计界面 -->
+	<div class="gameOver" id="gameOver">
+		<p>经过准确统计</p>
+		<p>你就是</p>
+		<p id="heavy">"瞎子"</p>
+		<h6>是的，没错，就是你，不要看别人。</h6>
+	</div>
+
+	<script type="text/javascript" src="js/function.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<!-- <script type="text/javascript" src="test.js"></script> -->
+</body>
+</html>
