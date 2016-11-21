@@ -1,0 +1,137 @@
+*{padding: 0;margin: 0;}
+/* ------------------------------ */
+.message{
+	margin: 0 auto;
+	width: 500px;
+	background: #F73859;
+	margin-top: 20px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	position: relative;
+}
+.score,.timer,.stop{
+	width: 160px;
+	display: inline-block;
+	text-align: center;
+	font: 32px/100px "Tahoma";
+	color: #283739;
+}
+.timer{
+	font-weight: normal;
+}
+
+.stop button{
+	border: none;
+	height: 50px;
+	width: 50px;
+	border: none;
+	border-radius: 50%;
+	background: #283739;
+	font-size: 20px;
+	font-family: "微软雅黑";
+}
+.stop button span{
+	width: 5px;
+	height: 15px;
+	background: #fff;
+	display: inline-block;
+}
+
+.colorGame{
+	margin: 0 auto;
+	width: 500px;
+	height: 500px;
+	background: #283739;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+/* ------------------------------------- */
+.game{
+	width: 500px;
+	height: 600px;
+	background: #F73859;
+	border-radius: 8px;
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	margin-left: -250px;
+}
+.game h1{
+	font-family: "微软雅黑";
+	color: #e8e8e8;
+	display: block;
+	margin: 160px auto;
+	width: 230px;
+	font-size: 46px;
+}
+.game p{
+	color: #e8e8e8;
+	font-size: 24px;
+	font-family: "微软雅黑";
+	display: block;
+	margin: 0 auto;
+	width: 160px;
+	height: 50px;
+	background: #283739;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 50px;
+	margin-top: -40px;
+}
+.game i{
+	width: 0px;
+	height: 0px;
+	font-style: normal;
+	display: block;
+	border-bottom: 12px solid transparent; 
+	border-left: 12px solid transparent; 
+	border-right: 12px solid transparent; 
+	border-top: 12px solid #fff; 
+	position: relative;
+	top: -70px;
+	left: 300px;
+}
+.game span{
+	margin: 0 auto;
+	color: #F73859;
+	font-size: 28px;
+	background: #e8e8e8;
+	display: block;
+	width: auto;
+	text-align: center;
+	margin-top: 50px;
+	line-height: 40px;
+	font-weight: bold;
+}
+.game span:hover{
+	color: #e8e8e8;
+	background: #F73859;
+}
+/* ----------------结束统计------------------ */
+.gameOver{
+	width: 500px;
+	height: 600px;
+	background: #F73859;
+	border-radius: 8px;
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	margin-left: -250px;
+}
+.gameOver p{
+	color: #e8e8e8;
+	font-size: 32px;
+	font-family: "微软雅黑";
+	margin-left: 20%;
+	margin-top: 100px;
+}
+.gameOver .heavy{
+	font-size: 64px;
+}
+.gameOver h6{
+	color: #283739;
+	position: relative;
+	top: 100px;
+	left: 55%;
+}

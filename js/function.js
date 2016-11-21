@@ -1,22 +1,22 @@
 /*-----------------------封装的函数------------------------*/
 var scoreName = function() {
-	if (0 < score && score <= 14) {
+	if (0 <= score && score < 14) {
 		return 1;
-	} else if (14 < score && score <= 24) {
+	} else if (14 <= score && score < 24) {
 		return 2;
-	} else if (24 < score && score <= 32) {
+	} else if (24 <= score && score < 32) {
 		return 3;
-	} else if (32 < score && score <= 44) {
+	} else if (32 <= score && score < 44) {
 		return 4;
-	} else if (44 < score && score <= 56) {
+	} else if (44 <= score && score < 56) {
 		return 5;
-	} else if (56 < score && score <= 70) {
+	} else if (56 <= score && score < 70) {
 		return 6;
-	} else if (70 < score && score <= 86) {
+	} else if (70 <= score && score < 86) {
 		return 7;
-	} else if (86 < score && score <= 100) {
+	} else if (86 <= score && score < 100) {
 		return 8;
-	} else if (100 < score && score <= 120) {
+	} else if (100 <= score && score < 120) {
 		return 9;
 	} else {
 		return 10;
